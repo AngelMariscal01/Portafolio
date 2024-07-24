@@ -1,0 +1,282 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.background {
+    position: relative;
+    background-image: url("../img/img.png"); /* Fondo de la página */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); /* Para oscurecer el fondo y hacer que el texto sea más legible */
+    text-align: center;
+}
+
+.back {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/raspberrypi.png"); /* Fondo de la página */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); /* Para oscurecer el fondo y hacer que el texto sea más legible */
+    text-align: center;
+}
+
+.proyectosback {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proyectos.png"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.backProUno{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pUno.png"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.backProDos{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pDos.png"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.backProTres{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pTres.png"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.backProCuatro{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pCuatro.png"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.backLogros{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pLogros.png"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.backContact{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/pContactos.jpg"); /* Añadir gradiente */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Centrar contenido horizontalmente */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Asegura que la barra de navegación esté encima del contenido */
+    height: 60px; /* Define una altura fija */
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li a:hover {
+    color: #f5f5f5;
+    background-color: #8b008b;
+}
+
+nav ul li a:hover {
+    color: #f5f5f5;
+    background-color: #8b008b; /* Cambiar color al pasar el ratón */
+}
+
+.frase h3 {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    /* Fondo semi-transparente para mejorar contraste */
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.main-content {
+    margin-top: 60px; /* Ajusta este valor para que coincida con la altura de la barra de navegación */
+    padding: 40px 20px; /* Espaciado interno para el contenido */
+    position: relative;
+    background-color: #f5f5f5; /* Fondo del contenido principal */
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.circle:hover {
+    transform: scale(1.05); /* Ampliar imagen al pasar el ratón */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.content h2 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(208, 22, 190, 0.5);
+    margin-bottom: 10px;
+}
+
+.roles span {
+    text-decoration: underline;
+    color: #e994e9;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.roles span:hover {
+    color: #c400c4;
+}
+
+.content p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.content a {
+    color: rgb(211, 100, 233);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.content a:hover {
+    color: #c400c4;
+    text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Portafolio - Angel David Mariscal Soto</title>
+</head>
+<body>
+    <header class="backProUno">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="/">About Me</a></li>
+                <li><a href="/experiencia">Experiencia Laboral</a></li>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <li><a href="/logros">Logros</a></li>
+                <li><a href="/contactos">Contactos</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <div class="content">
+                <h2>Primer Proyecto de Data Science de "SoyHenry"</h2>
+                <p class="roles">
+                    <span>Python</span> |
+                    <span>Jupyther Notebook</span> |
+                    <span>Fast Api</span> |
+                    <span>Scikit-Learn</span> |
+                    <span>Pandas</span> |
+                    <span>Git</span> |
+                    <span>Seaborn</span> |
+                    <span>Matplotlib</span> |
+                    <span>Nltk</span>
+                </p>
+                <h3>Proyecto de Implementación y Despliegue de Funciones de Análisis de Juegos de Steam con FastAPI</h3>
+                <p>En este proyecto, he desarrollado y desplegado cinco funciones utilizando FastAPI, enfocadas en el análisis y recomendación de juegos. Cada función ofrece una perspectiva única sobre el comportamiento de los jugadores, el éxito de los géneros, y las recomendaciones de la comunidad. A continuación, se describen las funciones implementadas:</p>
+                <ul>
+                    <li><strong><a>PlayTimeGenre (genero : str): </a></strong> Esta función devuelve el año con más horas jugadas para un género específico, proporcionando una visión sobre la popularidad de los géneros a lo largo del tiempo.</li>
+                    <li><strong><a>UserForGenre (genero : str): </a></strong>  Identifica al usuario que acumula más horas jugadas en un género dado y ofrece una lista detallada de la acumulación de horas por año. Esto ayuda a entender las preferencias individuales y la evolución del interés en ciertos géneros.</li>
+                    <li><strong><a>UsersRecommend (año : int): </a></strong> Proporciona el top 3 de juegos más recomendados por los usuarios para un año específico, basándose en reseñas positivas o neutrales. Esta función es clave para identificar tendencias de popularidad y recomendaciones dentro de la comunidad.</li>
+                    <li><strong><a>UsersNotRecommend (año : int): </a></strong>Devuelve el top 3 de juegos menos recomendados por los usuarios para un año dado, utilizando reseñas con comentarios negativos. Esto ayuda a entender qué juegos no han cumplido con las expectativas de los jugadores.</li>
+                    <li><strong><a>Sentiment Analysis (año : int): </a></strong>  Realiza un análisis de sentimiento sobre las reseñas de los usuarios para un año de lanzamiento específico, clasificándolas en categorías negativas, neutrales y positivas. Este análisis proporciona un panorama sobre la percepción general de los juegos lanzados en un año.</li>
+                </ul>
+                <p>Este proyecto demuestra mi capacidad para integrar análisis de datos avanzados en aplicaciones web modernas, ofreciendo soluciones eficientes para la industria del gaming. Puedes encontrar el código fuente y más detalles sobre este proyecto en mi <a href="https://github.com/AngelMariscal01/P1.git">repositorio de GitHub.</a></p>
+            </div>
+        </div>
+    </header>
+</body>

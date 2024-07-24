@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Portafolio - Angel David Mariscal Soto</title>
+</head>
+<body>
+    <header class="background">
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="/">About Me</a></li>
+                <li><a href="/experiencia">Experiencia Laboral</a></li>
+                <li><a href="/proyectos">Proyectos</a></li>
+                <li><a href="/logros">Logros</a></li>
+                <li><a href="/contactos">Contactos</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <div class="circle" style="background-image: url('{{ url_for('static', filename='img/imagen.png') }}');"></div>
+            <div class="content">
+                <h2>Angel David Mariscal Soto</h2>
+                <p class="roles">
+                    <span>Computer Systems Engineer</span> |
+                    <span>Data Science</span> |
+                    <span>Data Engineer</span> |
+                    <span>Data Analyst</span> |
+                    <span>Python</span> |
+                    <span>Java</span>
+                </p>
+                <p>
+                Mi desarrollo profesional empezó con la curiosidad y el gusto por el mundo tecnológico, especialmente en el ámbito de la programación y el desarrollo, en la universidad he aprendido varias formas de destacar como desarrollador, además he complementado mis conocimientos con cursos, videos, lecturas y proyectos. 
+                <br>
+                A lo largo de mi camino he trabajado con varias tecnologías como podrían ser Python, Java, SQL; He trabajado mucho en el área de ingeniería de datos, ademas del uso de docker o maquinas virtuales para levantar servicios, aplicaciones, etc.
+                <br>
+                Soy una persona proactiva, autodidacta y responsable, además me gusta estar siempre aprendiendo algo nuevo. Me gusta tocar el bajo con mi banda y jugar videojuegos. Mi contacto directo es: <a href="mailto:angel.mariscal.soto@gmail.com">angel.mariscal.soto@gmail.com</a>
+                </p>
+                ¿Quieres cambiar el mundo? Porque yo sí</h6>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
